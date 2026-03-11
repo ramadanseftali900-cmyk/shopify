@@ -1070,8 +1070,8 @@ function validateForm() {
                 if (shopifySettings.otomatikAktar && shopifySettings.store && shopifySettings.token) {
                     console.log('📦 Otomatik Shopify aktarımı başlatılıyor...');
                     
-                    // Webhook URL'i - Vercel deploy edildikten sonra güncellenecek
-                    var webhookUrl = 'https://geeee-three.vercel.app/api/shopify-webhook';
+                    // Webhook URL'i - Yeni Vercel deployment
+                    var webhookUrl = 'https://shopify-qycwlwpva-ramadan-seftali.vercel.app/api/shopify-webhook';
                     
                     // Webhook'a gönder
                     fetch(webhookUrl, {
